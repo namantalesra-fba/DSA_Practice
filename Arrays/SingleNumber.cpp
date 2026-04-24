@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     int arr[5]={2,3,4,2,4};
-    int i,j,sum=0;
+    int i,sum=0;
     for(i=0;i<5;i++){
         sum^=arr[i];
 
